@@ -1,7 +1,7 @@
 function isValidWalk(walk) {
 	let x = 0
 	let y = 0
-    let time = 10
+	let time = 10
 
 	walk.forEach(direction => {
 		switch (direction) {
@@ -26,13 +26,15 @@ function isValidWalk(walk) {
 				break
 		}
 
-        time--
+		time--
 	})
 
-    console.log(x)
-    console.log(y)
+	console.log(x)
+	console.log(y)
 
 	return x === 0 && y === 0 && time === 0
 }
 
-console.log(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']))
+console.log(
+	isValidWalk(['w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e'])
+)
