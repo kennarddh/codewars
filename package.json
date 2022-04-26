@@ -1,0 +1,25 @@
+{
+	"name": "codewars",
+	"version": "1.0.0",
+	"description": "My javascript codewars solutions",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kennarddh/codewars.git"
+	},
+	"keywords": [
+		"codewars",
+		"javascript"
+	],
+	"author": "kennarddh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kennarddh/codewars/issues"
+	},
+	"homepage": "https://github.com/kennarddh/codewars#readme",
+	"devDependencies": {
+		"jest": "^28.0.1"
+	}
+}
