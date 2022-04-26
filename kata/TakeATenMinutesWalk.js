@@ -1,3 +1,6 @@
+// Take a Ten Minutes Walk
+// https://www.codewars.com/kata/54da539698b8a2ad76000228
+
 function isValidWalk(walk) {
 	let x = 0
 	let y = 0
