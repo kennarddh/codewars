@@ -14,4 +14,4 @@ function order(words) {
 	return Object.values(result).join(' ')
 }
 
-console.log(order('is2 Thi1s T4est 3a'))
+module.exports = order

@@ -8,4 +8,4 @@ function queueTime(customers, n) {
 	return Math.max(...queues)
 }
 
-console.log(queueTime([1, 2, 3, 4, 5], 100))
+module.exports = queueTime

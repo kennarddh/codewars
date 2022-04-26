@@ -35,6 +35,4 @@ function isValidWalk(walk) {
 	return x === 0 && y === 0 && time === 0
 }
 
-console.log(
-	isValidWalk(['w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e', 'w', 'e'])
-)
+module.exports = isValidWalk
