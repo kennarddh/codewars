@@ -32,9 +32,6 @@ function isValidWalk(walk) {
 		time--
 	})
 
-	console.log(x)
-	console.log(y)
-
 	return x === 0 && y === 0 && time === 0
 }
 
