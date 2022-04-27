@@ -3,7 +3,10 @@
 	"version": "1.0.0",
 	"description": "My javascript codewars solutions",
 	"scripts": {
-		"test": "jest -o"
+		"test": "jest -o",
+		"commit": "git add . && git commit",
+		"postcommit": "git push origin main",
+		"precommit": "npm run test"
 	},
 	"repository": {
 		"type": "git",
