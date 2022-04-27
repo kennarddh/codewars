@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "My javascript codewars solutions",
 	"scripts": {
-		"test": "jest"
+		"test": "jest -o"
 	},
 	"repository": {
 		"type": "git",
