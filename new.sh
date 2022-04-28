@@ -1,3 +1,8 @@
+# $1 = Name
+# $2 = Url
+# $3 = Number of test cases
+# $4 = Pascal case name
+
 echo 'Creating new kata'
 
 echo 'name: '$1''
@@ -16,7 +21,7 @@ echo 'module.exports = ' >> ./kata/$1.js
 
 echo "const  = require('../$1.js')" >> ./kata/__tests__/$1.test.js
 echo '' >> ./kata/__tests__/$1.test.js
-echo 'describe('VowelCount', () => {' >> ./kata/__tests__/$1.test.js
+echo 'describe('$4', () => {' >> ./kata/__tests__/$1.test.js
 echo '	it.each([' >> ./kata/__tests__/$1.test.js
 
 for (( i=1; i <= $3; i++ ))
