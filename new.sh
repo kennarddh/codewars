@@ -37,7 +37,6 @@ do
 	echo '		{ input: [], output:  },' >> ./kata/$4/__tests__/$4.test.js
 done
 
-
 echo '	])(' >> ./kata/$4/__tests__/$4.test.js
 echo "		'should return \$output for \$input'," >> ./kata/$4/__tests__/$4.test.js
 echo '		({ input, output }) => {' >> ./kata/$4/__tests__/$4.test.js
